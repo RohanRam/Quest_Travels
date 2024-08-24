@@ -707,6 +707,10 @@ input:checked + label .description
   h1 {
       font-size: 2.5rem;
   }
+  #s1
+  {
+    height: 100vh;
+  }
 }
 
 /* For mobile devices */
@@ -766,6 +770,10 @@ input:checked + label .description
       text-align: center;
      
     }
+    #s1
+    {
+      height: 100vh;
+    }
   }
 
   @media only screen and (max-width: 392px) 
@@ -820,5 +828,8 @@ input:checked + label .description
     .brd {
       display: block;
     }
-   
+    #s1
+    {
+      height: 150vh;
+    }
    }
